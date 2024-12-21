@@ -7,7 +7,7 @@
 
 // a = 5;
 // a = "a";
-// a = true;
+// a = true; // Bu değerler boolean değer denir.
 
 // Yukarıda herhangi bir hata almayız çünkü a değişkenine herhangi bir değer atamadık ve bu yüzden herhangi bir değer atayabiliriz.
 
@@ -30,7 +30,7 @@ const krediPayment = 0;
 const havalePayment = 1;
 const eftPayment = 2;
 
-enum Payment {kredi = 0, havale = 1, kapidaodeme = 2, eft = 3}
+enum Payment {kredi = 0, havale = 1, kapidaodeme = 2, eft = 3} // Aslında burası javascriptde ki Onject yapısına çok benzer aynı burada da değerler atarız fakat buradaki fark bu değerler burada sabit olarak atanabilir ve burada çift yönlü haritalama vardır. Yani hem isimden değere hem de değerden isime erişilinebilir.
 
 let kredi = Payment.kredi; // => 0
 let havale = Payment.havale; // => 1
