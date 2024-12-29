@@ -16,6 +16,7 @@ function getAverage(a: number, b:number, c?:number): string { // Burada teker te
 getAverage(10,20,30);
                                 // : void   değeri bir fonksiyonun dönüş değerinin olmadığını belirtir.
 const GetAverage = (...a: number[]): string => { // Aslında burada sona yazılan : string değeri function değerinin string bir değer döndürüceğini söylemiş oluruz.
+    // Buradaki ...a değerindeki ... demek aslında birden fazla değer alabileceğini söylüyor.
     let total = 0;
     let count = 0;
 
