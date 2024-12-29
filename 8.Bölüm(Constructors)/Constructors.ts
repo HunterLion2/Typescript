@@ -44,7 +44,7 @@ let taxi_3 = new Taxi();
 // CONSTRUCTOR KULLANIMI
 
 
-// Başlangıç Değerleri Atama: constructor, nesnenin özelliklerine başlangıç değerleri atar.
+// Başlangıç Değerleri Atama: constructor, nesnenin özelliklerine başlangıç değerleri atar.Yani aslında nesneyi çağırdığında içine hangi değerlerin yazılacağını belirler.
 // İsteğe Bağlı Parametreler: constructor içinde isteğe bağlı parametreler kullanarak, nesne oluşturulurken bazı parametrelerin sağlanmaması durumunda varsayılan değerler atanabilir.
 // Nesne Oluşturma: new anahtar kelimesi ile sınıftan yeni bir nesne oluşturulduğunda constructor otomatik olarak çağrılır.
 

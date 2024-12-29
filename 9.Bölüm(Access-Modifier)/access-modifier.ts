@@ -26,3 +26,11 @@ class Taxi implements Vehicle {
  
 let taxi_1: Taxi = new Taxi({ x: 2, y:5 });
 taxi_1.travelTo({ x: 1, y: 2});
+
+// AÇIKLAMA
+///////////////////////////////////
+
+// Neden private ve public Özellikler Kullanılır?
+// Kapsülleme: private üyeler, sınıfın iç durumunu korur ve dış müdahalelere karşı güvenlik sağlar. Bu, sınıfın iç yapısını gizleyerek daha güvenli ve yönetilebilir kod yazılmasını sağlar.
+// Erişilebilirlik Kontrolü: public üyeler, sınıfın dışından erişilebilir ve değiştirilebilir. Bu, sınıfın belirli özelliklerinin ve metotlarının dışarıdan kullanılmasına izin verir.
+// Güvenlik ve Tutarlılık: private üyeler, sınıfın iç durumunu korur ve dışarıdan gelen hatalı veya istenmeyen değişiklikleri engeller. Bu, sınıfın iç durumunun tutarlı kalmasını sağlar.
