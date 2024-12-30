@@ -27,7 +27,7 @@ export class ProductService implements IProductService {
             product.id = this.generateId();
             this.products.push(product);
         } else {
-            let index: // this.products.indexOf(product); // indexOf metodu, bir dizide belirtilen öğenin ilk bulunduğu konumun indeksini döndürür.
+            let index; // this.products.indexOf(product); // indexOf metodu, bir dizide belirtilen öğenin ilk bulunduğu konumun indeksini döndürür.
 
             for(let i=0 ; i < this.products.length; i++) {
                 if(this.products[i].id === product.id) {
