@@ -44,6 +44,8 @@ let taxi_3 = new Taxi();
 // CONSTRUCTOR KULLANIMI
 
 
+// BUNU OKU GÜZEL AÇIKLAMA: constructor'ın parantezleri içine yazılan parametreler, nesne oluşturulurken dışarıdan sağlanması gereken değerlerdir. constructor'ın süslü parantezleri içine yazılan kod ise, nesne oluşturulduğunda yapılacak işlemleri tanımlar.
+
 // Başlangıç Değerleri Atama: constructor, nesnenin özelliklerine başlangıç değerleri atar.Yani aslında nesneyi çağırdığında içine hangi değerlerin yazılacağını belirler.
 // İsteğe Bağlı Parametreler: constructor içinde isteğe bağlı parametreler kullanarak, nesne oluşturulurken bazı parametrelerin sağlanmaması durumunda varsayılan değerler atanabilir.
 // Nesne Oluşturma: new anahtar kelimesi ile sınıftan yeni bir nesne oluşturulduğunda constructor otomatik olarak çağrılır.

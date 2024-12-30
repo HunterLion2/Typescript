@@ -22,7 +22,7 @@ let b:string = "a";
 let c:boolean = true;
 let d:any = "a";
 let e:number[] = [1,2,3]; // Bu ikiside aynı şeydir. e ve f
-let f:Array<number> = [1,2,3];
+let f:Array<number> = [1,2,3]; // Array dizi anlamına gelir.
 let g:any[] = [1,"a",true];
 let h:[string,number,boolean] = ["a",5,true]; // tuple
 
