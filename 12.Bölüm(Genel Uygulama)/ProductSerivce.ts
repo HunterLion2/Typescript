@@ -41,7 +41,7 @@ export class ProductService implements IProductService {
     deleteProduct(product: Product): void {
         let index = this.products.indexOf(product);  // this.products.indexOf(product); // indexOf metodu, bir dizide belirtilen öğenin ilk bulunduğu konumun indeksini döndürür.
         if(index > 0 ) {
-            this.products.splice(index, 1)
+            this.products.splice(index, 1) // this.products.splice(index, 1) ifadesi, products dizisinden belirtilen index konumundan başlayarak 1 öğeyi siler.
         }
     }
 
