@@ -20,7 +20,7 @@ _productService.saveProduct(p)
 // _productService.deleteProduct(result);
 result = _productService.getProducts();
 
-
 result = _productService.getProducts();
+
 console.log(result);
 
