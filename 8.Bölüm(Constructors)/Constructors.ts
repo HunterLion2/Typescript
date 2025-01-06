@@ -12,7 +12,7 @@ interface Vehicle {
     color :string;
     currentLocation: Point;
 
-    // Constructor: Bir sınıftan yeni bir nesne oluşturulduğunda çağrılan özel bir metottur.
+    // Constructor: Bir nesne çağırıldığı zaman ondan istenen değerdir let taxi_1: Taxi = new Taxi({ x: 2, y:5 }); burada olduğu gibi
 
     constructor(location?: Point, color?: string) { // Burada ? işareti kullandık fakat bunu kullanırken değerler undefind sonucunu almasınlar diye || işaretini kullanmak zorundayız 
         this.currentLocation = location || { x: 0, y: 0 };

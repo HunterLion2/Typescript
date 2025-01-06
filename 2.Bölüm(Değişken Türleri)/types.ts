@@ -30,7 +30,9 @@ const krediPayment = 0;
 const havalePayment = 1;
 const eftPayment = 2;
 
-enum Payment {kredi = 0, havale = 1, kapidaodeme = 2, eft = 3} // Aslında burası javascriptde ki Onject yapısına çok benzer aynı burada da değerler atarız fakat buradaki fark bu değerler burada sabit olarak atanabilir ve burada çift yönlü haritalama vardır. Yani hem isimden değere hem de değerden isime erişilinebilir.
+enum Payment {kredi = 0, havale = 1, kapidaodeme = 2, eft = 3} // Aslında burasdaki "enum" javascriptde ki Onject yapısına çok benzer aynı burada da değerler atarız fakat buradaki fark bu değerler burada sabit olarak atanabilir ve burada çift yönlü haritalama vardır. Yani hem isimden değere hem de değerden isime erişilinebilir.
+// enumlar  sabit değerlerin anlamlı isimlerle temsil edilmesini sağlar.
+// enumlar hem isimden değere hem de değerden isime erişim sağlar.
 
 let kredi = Payment.kredi; // => 0
 let havale = Payment.havale; // => 1

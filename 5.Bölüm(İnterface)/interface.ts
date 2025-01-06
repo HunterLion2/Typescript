@@ -1,4 +1,4 @@
-interface Point { // Aslında interface bir nesnenin yapısını belirtmek için kullanılır diyebiliriz.
+interface Point { // İnterface yazmamızın sebebi interface'in içine yazılan yapıyı başka dosyada implements özelliği sayesinde çekebilmemizi ve bunu kullanabilmemizi sağlar.
     x: number,
     y: number
 }
