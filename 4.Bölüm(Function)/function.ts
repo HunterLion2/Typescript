@@ -4,7 +4,7 @@ function getAverage(a: number, b:number, c?:number): string { // Burada teker te
     let total = a + b;
     let count = 2;
 
-    if(typeof c !== 'undefined') {
+    if(typeof c !== 'undefined') { // typeof değeri ile c değerinin hangi türde olduğunu olduğunu anlamış oluruz "undefined,boolean,number" gibi.
         total += c;
         count++;
     }
